@@ -1,0 +1,17 @@
+[head]
+comment=Generated using CSVToXML
+fielddelimiter=,
+rowdelimiter=\n
+rootname=doc
+recordname=entry
+fields=4
+
+[fields]
+field0=attsID
+field1=prodID
+field2=att
+field3=desc
+
+
+
+
