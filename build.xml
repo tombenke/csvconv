@@ -72,6 +72,9 @@
 
     -->
 
+    <target name="-post-clean">
+        <delete file="csvconv.zip"/>
+    </target>
 
     <target name="-post-jar">
         <zip destfile="csvconv.zip">
@@ -82,7 +85,4 @@
         </zip>
     </target>
 
-    <target name="-post-clean">
-        <delete file="csvconv.zip"/>
-    </target>
 </project>

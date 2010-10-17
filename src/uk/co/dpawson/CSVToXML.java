@@ -161,7 +161,7 @@ public class CSVToXML {
         StringBuffer jsonFileData = new StringBuffer();
 
         // Add document node
-        jsonFileData.append( "/* " + details.comment() + " */\n");
+        //jsonFileData.append( "/* " + details.comment() + " */\n");
 
         // Document root node
         jsonFileData.append( "{ \"" + details.XMLRootName() + "\": [\n" );
